@@ -1,0 +1,134 @@
+html {
+    background-color: #181818;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    --border-table: 1px solid rgb(243, 243, 243);
+}
+
+.top-bar {
+    display: flex;
+    background-color: #111111;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #1b1b1b;
+    position: fixed;
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+    
+}
+
+.copyright {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tabla-pedido {
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    width: 50%;
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    empty-cells: hide;
+    border: var(--border-table);
+}
+
+th {
+    font-size: 1.1rem;
+    background-color: rgb(24, 24, 24);
+}
+
+th, td, tr {
+    color: rgb(255, 255, 255);
+    border: var(--border-table);
+    text-align: center;
+    padding: .3rem;
+}
+
+.linea-bot {
+    border: none;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.precio-tabla::before {
+    content: '\0024';
+    padding-right: 0.4rem;
+}
+
+.button {
+    margin: 0 .4rem;
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #b9b9b9;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.div-info {
+    flex: 1;
+    overflow: hidden;
+}
+
+.nombre-prod {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0.2rem 1rem;
+}
+
+.descripcion-prod {
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 0.2rem 1rem;
+    overflow: hidden;
+}
+
+.precio {
+    margin: 0 .5em;
+    padding: 0.2rem 1rem;
+}
+
+.precio::before {
+    content: '\0024';
+    padding-right: 0.3rem;
+}
+
+.boton {
+    margin: 0 .4rem;
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #b9b9b9;
+}
+
+
+.lista-productos {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px; 
+}

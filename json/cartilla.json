@@ -1,0 +1,64 @@
+{
+    "productos": [
+      {
+        "nombre": "Agua Mineral",
+        "precio": 1900,
+        "descripcion": ""
+      },
+      {
+        "nombre": "Gaseosa",
+        "precio": 1900,
+        "descripcion": "Linea Coca-Cola"
+      },
+      {
+        "nombre": "Limonada",
+        "precio": 1900,
+        "descripcion": ""
+      },
+      {
+        "nombre": "Porrón Corona",
+        "precio": 3700,
+        "descripcion": ""
+      },
+      {
+        "nombre": "Copa Stella Artois",
+        "precio": 3300,
+        "descripcion": ""
+      },
+      {
+        "nombre": "Pinta Patagonia",
+        "precio": 4400,
+        "descripcion": "Amber Lager - Ipa 24.7"
+      },
+      {
+        "nombre": "Fernet Branca",
+        "precio": 3800,
+        "descripcion": ""
+      },
+      {
+      "nombre": "Hamburguesa Krusty",
+        "precio": 8000,
+        "descripcion": "Pollo crispy, muzzarella, sour cream, rúcula y cebolla caramelizada"
+      },
+      {
+        "nombre": "Hamburguesa Robert Plant",
+        "precio": 6500,
+        "descripcion": "Medallón de 120g, cheddar fundido y cebolla crispy"
+      },
+      {
+        "nombre": "Hamgurguesa personalizada",
+        "precio": 7000,
+        "descripcion": "Personaliza tu hamburguesa a tu gusto"
+      },
+      {
+        "nombre": "Papas Fritas",
+        "precio": 3900,
+        "descripcion": "Porción para 2 personas"
+      },
+      {
+        "nombre": "Pizza Muzzarella",
+        "precio": 7000,
+        "descripcion": ""
+      }
+    ]
+  }
